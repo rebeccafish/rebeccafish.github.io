@@ -1,0 +1,3 @@
+
+RewriteEngine On
+RewriteRule ^hq/(.*)$ images/icons/$1 [L]

@@ -1,0 +1,9 @@
+#box {
+	width:  650px;
+	margin: 0 auto 0 auto;
+	min-height: 245px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	border: 2px dashed #c0c0c0;
+}
+

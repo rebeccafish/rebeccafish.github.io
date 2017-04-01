@@ -1,0 +1,93 @@
+/*Variables*/
+
+$bright-blue: #1C80D9;
+
+
+/*brings base font size to 10px, so ems are easier to calculate*/
+body {
+	font-size: 62.5%;
+	background: url("../../images/texture1.png") repeat;
+	text-align: center;
+	font-family: "Helvetica Neue";
+}
+
+header {
+	background-color: $bright-blue;
+	height: 7.4em;
+	
+	img {
+		margin-top: 2.15em;
+	}
+}
+
+section#intro {
+	padding: 2.5em 3em 3em 3em;
+	
+	h1 {
+		font-family: "ff-spinoza-web-pro";
+		//font-family: "abril-display";
+		//font-family: "freight-display-pro";
+		font-weight: 400;
+		font-size: 2.2em;
+		line-height: 1.4em;
+		margin-bottom: 0.5em;
+		color: #3A3A3A;
+		text-shadow: 0 0.1em white;
+	}
+	
+	p {
+		color: #5E5E5E;
+		font-size: 1.4em;
+		font-weight: 300;
+		line-height: 1.667em;
+		//font-family: "aktiv-grotesk-std";
+		font-family: "proxima-nova";
+	}
+}
+
+section#projects {
+	background: url("../../images/texture2.png") repeat;
+	padding: 2em 3em 2em 3em;
+	
+	h2 {
+		font-weight: 500;
+		font-size: 1.3em;
+		color: #515151;
+		line-height: 1em;
+		background-color: #F8F8F8;
+		padding: 1.2em;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	
+	.preview {
+		background-color: white;
+		height: 18em;
+	}
+
+	.project_icon {
+		width: 3.8em;
+		height: 3.8em;
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1.7em;
+		position: relative;
+	}
+	
+	.project {
+		margin-top: 3em;
+		
+		&:first-child {
+			margin-top: 2em;
+		}
+	}
+	
+	#OneView {
+		.project_icon img {
+			position: absolute;
+			left: -3.8em;
+		}
+	}
+	
+}

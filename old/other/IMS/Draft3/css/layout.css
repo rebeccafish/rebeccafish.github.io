@@ -1,0 +1,38 @@
+/*rounded bar at top*/
+#top_wrapper {
+	margin: 5% auto 0 auto;
+	width: 801px;
+	background: url(images/top_bar.png) center top no-repeat;
+	min-height: 20px;
+}
+
+/*repeated white box*/
+#wrapper {
+	width:  801px;
+	margin: 0 auto 0 auto;
+	padding-bottom: 35px;
+	min-height: 485px;
+	text-align: center;
+	background: url(images/background.png) repeat;
+}
+
+/*rounded bar at bottom*/
+#bottom_wrapper {
+	margin: 0 auto 0 auto;
+	width: 801px;
+	background: url(images/bottom_bar.png) center bottom no-repeat;
+	min-height: 20px;
+}
+
+/*more space under login header*/
+#login_header {
+	padding-top: 30px;
+	margin-bottom: 60px;
+}
+
+#header {
+	width:  650px;
+	margin: 0 auto 30px auto;
+	padding-top: 25px;
+	text-align: left;
+}

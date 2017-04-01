@@ -1,0 +1,99 @@
+/****** HEADER ********/
+
+.oneview #lead_image {
+	background-color: #083a6b;
+}
+
+.oneview #lead_image:after {
+	background-color: #104c87;
+}
+
+.oneview #lead_image .monitor {
+	bottom: 11em;
+	left: 50%;
+	margin-left: -29.25em;
+}
+
+.oneview #lead_image .side1 {
+	bottom: 7em;
+	left: 50%;
+	margin-left: -60em;
+}
+
+.oneview #lead_image .side2 {
+	top: 0em;
+	right: 5%;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+	.oneview #lead_image .monitor {
+		width: 26em;
+		bottom: 3.7em;
+		left: 50%;
+		margin-left: -13em;
+	}
+	
+	.oneview #lead_image .side1 {
+		width: 6em;
+		bottom: 4em;
+		left: 40%;
+		margin-left: -20em;	
+	}
+	
+	.oneview #lead_image .side2 {
+		width: 20em;
+		right: 5%;
+	}
+}
+
+
+.oneview nav a {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.oneview #title h1 {
+	color: #083a6b;
+}
+
+.oneview #title #date {
+	color: #1a7edf;
+	background-color: rgb(231, 242, 252);
+}
+
+.oneview #to_top {
+	background-color: #083a6b;
+}
+
+.oneview #to_top button {
+	background-color: #286bb6;
+}
+
+
+
+/****** PARAGRAPH STYLES ********/
+
+h2 {
+	color: #083a6b;
+}
+
+h3 {
+	color: #00ADAF;  
+}
+
+h4 {
+	color: #00919E;
+}
+
+.oneview section a {
+	color: #0798B4;
+}
+
+.oneview section a:hover, .oneview section a:visited:hover {
+	color: #1a7edf;
+	border-bottom: 1px dotted blue;
+}
+
+.oneview section a:visited {
+	color: #90D2DF;
+}

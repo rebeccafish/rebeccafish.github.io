@@ -1,0 +1,70 @@
+
+/*used for username field on login page*/
+#box .username_field {
+	margin-top: 40px;	
+}
+
+
+fieldset {
+	border: none;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+/* selects lists inside fieldset.  each list item is contained within a separate list so it can have a unique bullet graphic*/
+fieldset ul {
+	text-align: left;
+}
+
+/*used to format form question numbers*/
+fieldset ul li {
+	list-style: none;
+	padding-left: 60px;
+	margin-left: -5px;
+	padding-bottom: 30px;
+	background-image: url(images/number_list/1.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+
+/*creates "1" bullet. doesn't do anything right now. can't apply <span class> to a <ul>. applying one to a <li> doesn't change the bullet image.*/
+fieldset ul li .1 {
+	margin-bottom: 2px;
+	background-image: url(images/number_list/1.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+
+/*creates "2" bullet*/
+fieldset ul li .2 {
+	background-image: url(images/number_list/1.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+
+/*creates "3" bullet*/
+fieldset ul li .3 {
+	background-image: url(images/number_list/1.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+
+fieldset table {
+	margin-top: 5px;
+	border: none;
+	vertical-align: top;
+}
+
+fieldset table td {
+	padding-right: 25px;
+}
+
+/*used for larger form question labels*/
+fieldset .question {
+	font-size: 17px;
+}
+
+/*used for smaller form labels*/
+fieldset label {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+}

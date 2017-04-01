@@ -1,0 +1,20 @@
+#lightbox {
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+
+#lightboxCaption {
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}
+
+#lightbox img { border: none; } 
+
+#overlay img { border: none; }
+
+* html #overlay {
+	background-color: #333;
+	back\ground-color: transparent;
+	}

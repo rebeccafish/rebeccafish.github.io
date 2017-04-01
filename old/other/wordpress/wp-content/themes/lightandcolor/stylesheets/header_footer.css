@@ -1,0 +1,41 @@
+#header {
+  padding-bottom: 10px;
+  border-bottom-color: #c0c0c0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  width: auto;
+  height: 35px;
+  padding-top: 35px;
+}
+
+#logo {
+	margin-right: 10px;
+	float: left;
+	height: 36px;
+	display: inline;
+	width: 224px;	
+}
+
+#divider {
+	border-left-color: #bababa;
+	float: left;
+	height: 36px;
+	display: inline;
+	width: 5px;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+
+#category {
+	left: 7px;
+	height: 36px;
+	background-position: 0 bottom;
+	position: relative;
+	display: inline-block;
+}
+
+#category a {
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+}

@@ -1,0 +1,324 @@
+/*!
+ * Gridpak Beta CSS
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+ 
+ 
+ body,
+ html,
+ div {
+      margin: 0;
+      padding:0;
+  }
+  
+#page {
+  	      min-width: 980px; /*temporary until responsive*/
+  }
+ 
+
+/* Reusable column setup */
+.col {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+.row {
+	clear: both;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+
+
+    /* 1. 1 Column Grid 0px - 559px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    /*@media screen and (min-width: 0px) and (max-width: 559px) {*/
+    @media screen and (min-width: 0px) and (max-width: 0px) { /*temporary until responsive*/   
+        .col {
+            margin-left:3%;
+        	padding:0 3.5%;
+        }
+        
+        .row .col:first-child {
+            margin-left:0;
+        }
+        
+        
+        /*6 column grid*/
+        
+        .col6_span1 {
+            width:14.1666666667%;
+        }
+        .col6_span2, .small_grid_img {
+            width:31.3333333333%;
+        }
+        .col6_span3, .pioneer_detail_img {
+            width:48.5%;
+        }
+        .col6_span4 {
+            width:65.6666666667%;
+        }
+        .col6_span5 {
+            width:82.8333333333%;
+        }
+        .col6_span6, .logo, .nav_links, .role_list, #title_block, #oneview_intro_text, #oneview_intro_img, .fnzc_details, #fnzc_content_img, #fnzc_content_details, #pioneer_details_1, #pioneer_details_2, #pioneer_details_3, #pioneer_wordpress_img, #wireframes_details_1, #wireframes_img_1, #wireframes_details_2, #wireframes_details_3, #wireframes_img_2, #wireframes_img_3 {
+            margin-left:0;
+            width:100%;
+        }
+        
+        
+        
+        
+        /*5 column grid for portfolio project list (smaller margins & padding)*/
+        
+        #portfolio_projects .col {
+            margin-left:2%;
+        	padding: 1%; /*padding all sides*/
+        }
+        
+        .P_span1, #portfolio_projects li {
+            width:18.4%;
+        }
+        .P_span2 {
+            width:38.8%;
+        }
+        .P_span3 {
+            width:59.2%;
+        }
+        .P_span4 {
+            width:79.6%;
+        }
+        .P_span5 {
+            margin-left:0;
+            width:100%;
+        }
+        
+        
+        .nav_links ul, .work_nav_links ul{
+        	float: left !important;
+        }
+        
+        .nav_links ul li, .work_nav_links ul li {
+        	margin-left: 0 !important;
+        	margin-right: 2.5em;
+        }
+        
+        
+    }
+
+       
+    
+    
+    /* 2. 560px - 860px 
+        ----------------------------------------------------------------------------- */
+    
+       /* @media screen and (min-width: 560px) and (max-width: 860px) {*/
+        @media screen and (min-width: 0px) and (max-width: 0px) { /*temporary until responsive*/  
+            
+            .col {
+                margin-left:5%;
+            	padding:0 1.5%;
+            }
+            
+            .row .col:first-child {
+                margin-left:0 !important;
+            }       
+            
+            
+        /*5 column grid*/
+            
+            .col5_span1, .logo {
+                width:16.0%;
+            }
+            .col5_span2, #oneview_intro_text{
+                width:37.0%;
+            }
+            .col5_span3, #oneview_intro_img {
+                width:58.0%;
+            }
+            .col5_span4, .nav_links {
+                width:79.0%;
+            }
+            .col5_span5, .role_list, #title_block {
+                margin-left:0;
+                width:100%;
+            }
+            
+            
+       /*6 column grid*/
+            
+            .col6_span1, .small_grid_img {
+                width:12.5%;
+            }
+            .col6_span2, .pioneer_detail_img, #wireframes_details_2, #wireframes_details_3 {
+                width:30.0%;
+            }
+            .col6_span3, #fnzc_content_img, #fnzc_content_details, #pioneer_details_3, #pioneer_wordpress_img, #wireframes_details_1, #wireframes_img_1  {
+                width:47.5%;
+            }
+            .col6_span4, .small_grid_text, #wireframes_img_2, #wireframes_img_3 {
+                width:65.0%;
+            }
+            .col6_span5 {
+                width:82.5%;
+            }
+            .col6_span6, .fnzc_details, #pioneer_details_1, #pioneer_details_2 {
+                margin-left:0;
+                width:100%;
+            }
+      
+            
+      /*5 column grid for portfolio project list (smaller margins & padding)*/
+            
+            #portfolio_projects .col {
+                margin-left:2%;
+            	padding: 0.7%; /*padding all sides*/
+            }
+            
+            .P_span1, #portfolio_projects li {
+                width:18.4%;
+            }
+            .P_span2 {
+                width:38.8%;
+            }
+            .P_span3 {
+                width:59.2%;
+            }
+            .P_span4 {
+                width:79.6%;
+            }
+            .P_span5 {
+                margin-left:0;
+                width:100%;
+            }
+            
+        }
+    
+    
+    
+    
+    
+
+    /* 3. 5 Column Grid 861px - Infinity 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    16.0%
+    Span 2:    37.0%
+    Span 3:    58.0%
+    Span 4:    79.0%
+    Span 5:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    /*@media screen and (min-width: 861px) {*/
+    @media screen and (min-width: 1px) { /*temporary until responsive*/  
+        
+        .col {
+            margin-left:5%;
+        	padding:0 1.5%;
+        }
+        
+        .row .col:first-child {
+            margin-left:0 !important;
+        }
+                
+        
+        
+        /*5 column grid*/
+        
+        .col5_span1, .logo, #oneview_intro_text, .small_grid_img {
+            width:16.0%;
+        }
+        .col5_span2 {
+            width:37.0%;
+        }
+        .col5_span3, .small_grid_text {
+            width:58.0%;
+        }
+        .col5_span4, .nav_links, #oneview_intro_img {
+            width:79.0%;
+        }
+        .col5_span5, .role_list, #title_block {
+            margin-left:0;
+            width:100%;
+        }
+        
+        
+        /*6 column grid*/
+        
+        .col6_span1 {
+            width:12.5%;
+        }
+        .col6_span2, .fnzc_details, #fnzc_content_details, .pioneer_detail_img, #wireframes_details_1, #wireframes_details_2, #wireframes_details_3 {
+            width:30.0%;
+        }
+        .col6_span3, #pioneer_details_3, #pioneer_wordpress_img {
+            width:47.5%;
+        }
+        .col6_span4, #fnzc_content_img, #wireframes_img_1, #wireframes_img_2, #wireframes_img_3 {
+            width:65.0%;
+        }
+        .col6_span5 {
+            width:82.5%;
+        }
+        .col6_span6, #pioneer_details_1, #pioneer_details_2 {
+            margin-left:0;
+            width:100%;
+        }
+        
+        
+        /*5 column grid for portfolio project list (smaller margins & padding)*/
+        
+        #portfolio_projects .col {
+            margin-left:3%;
+        	padding: 0.7%;
+        }
+        
+        .P_span1, #portfolio_projects li {
+            width:17.6%;
+        }
+        .P_span2 {
+            width:38.2%;
+        }
+        .P_span3 {
+            width:58.8%;
+        }
+        .P_span4 {
+            width:79.4%;
+        }
+        .P_span5 {
+            margin-left:0;
+            width:100%;
+        }
+        
+        
+    }
+
+
+/* 2. 6 Column Grid 1250px to Infinity
+Stops from expanding past this size
+----------------------------------------------------------------------------- */
+
+@media all and (min-width: 980px) {
+	
+	.row {
+		width: 980px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+

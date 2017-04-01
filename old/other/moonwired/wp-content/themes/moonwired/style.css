@@ -1,0 +1,35 @@
+/*
+Theme Name: Moonwired
+Theme URI: 
+Description: The theme for Moonwired literary magazine.
+Author: Rebecca Fish
+Author URI: http://rebeccafish.com
+Version: 1.0
+Tags: 
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+
+.clear {
+	clear: both;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+p {
+	color: #333333;
+	font: 0.938em/175% "AvenirLTStd-Light", sans-serif;
+}
+
+p + p {
+	margin-top: 1em;
+}

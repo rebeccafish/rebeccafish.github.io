@@ -1,0 +1,137 @@
+/****** HEADER ********/
+
+.pioneer #lead_image {
+	background-color: #ff8b03;
+}
+
+.pioneer #lead_image:after {
+	background-color: #e27a00;
+}
+
+.pioneer #lead_image .monitor {
+	bottom: 11em;
+	right: 12%;
+}
+
+.pioneer #lead_image .side1 {
+	bottom: 7em;
+	left: 70%;
+	margin-left: -60em;
+}
+
+.pioneer #lead_image .side2 {
+	top: 0em;
+	left: 50%;
+	margin-left: -80em;
+}
+
+@media only screen and (max-width: 600px) {
+	.pioneer #lead_image .monitor {
+		width: 26em;
+		bottom: 3.7em;
+		left: 50%;
+		margin-left: -13em;
+	}
+	
+	.pioneer  #lead_image .side1 {
+		width: 6em;
+		bottom: 4em;
+		left: 40%;
+		margin-left: -20em;	
+	}
+	
+	.pioneer #lead_image .side2 {
+		width: 25em;
+		right: 30%;
+		left: auto;
+		margin-right: -27em;
+	}
+}
+
+
+.pioneer nav a {
+	color: rgba(255, 255, 255, 0.92);
+}
+
+.pioneer #title h1 {
+	color: #61240C;
+}
+
+.pioneer #title #date {
+	color: #ef6c00;
+	background-color: rgb(252, 240, 218);
+}
+
+.pioneer .graphic.one figure {
+	background-color: #2C2929;
+	background-color: #EEE9E6;
+}
+
+.pioneer .graphic.two figure {
+	background-color: #B6B0AD;
+}
+
+/*
+.pioneer .light {
+	background-color: #FFF5EC;
+}
+
+.pioneer section#overview.light p {
+	color: #640000;
+}
+
+
+.pioneer section.dark {
+	background-color: #FFE7D0;
+}
+
+
+.pioneer section.dark h2 {
+	color: #61240C;
+}
+
+.pioneer section.dark h3 {
+	color: #C53F00;
+	font-weight: 400;
+}
+
+.pioneer section.dark p {
+	color: #AC603E;
+}
+*/
+.pioneer #to_top {
+	background-color: #ff8b04;
+}
+
+.pioneer #to_top button {
+	background-color: #da4800;
+}
+
+
+
+/****** PARAGRAPH STYLES ********/
+
+h2 {
+	color: #61240C;
+}
+
+h3 {
+	color: #F18700;
+}
+
+h4 {
+	color: #C04E00;
+}
+
+.pioneer section a {
+	color: #FF6600;
+}
+
+.pioneer section a:hover, .pioneer section a:visited:hover {
+	color: #FF7B02;
+	border-bottom: 1px dotted orange;
+}
+
+.pioneer section a:visited {
+	color: #E5986B;
+}
