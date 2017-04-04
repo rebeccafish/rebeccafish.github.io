@@ -1,0 +1,200 @@
+/* Reusable column setup */
+.col {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+
+
+    /* 1. 1 Column Grid 0px - 679px
+    -----------------------------------------------------------------------------
+
+    Span 1:    100%
+
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 0px) and (max-width: 679px) {
+
+        .col {
+            margin-left:2%;
+        	padding:0 7%;
+        }
+
+        .row .col:first-child {
+            margin-left:0;
+        }
+
+        .span_1, .blurb {
+            margin-left:0;
+            width:100%;
+        }
+
+        section {
+        }
+
+        h2 {
+          font-size: 4rem;
+        }
+
+        p {
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+        }
+    }
+
+    /* 2. 5 Column Grid 680px - 1099px
+    -----------------------------------------------------------------------------
+
+    Span 1:    18.4%
+    Span 2:    38.8%
+    Span 3:    59.2%
+    Span 4:    79.6%
+    Span 5:    100%
+
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 680px) and (max-width: 1099px) {
+
+        .col {
+            margin-left:2%;
+        	padding:0 1.5%;
+        }
+
+        .row .col:first-child {
+            margin-left:0;
+        }
+
+
+        .span_1 {
+            width:18.4%;
+        }
+        .span_2 {
+            width:38.8%;
+        }
+        .span_3, .blurb {
+            width:59.2%;
+        }
+        .span_4 {
+            width:79.6%;
+        }
+        .span_5 {
+            margin-left:0;
+            width:100%;
+        }
+
+
+        .offset-by-one, .blurb {
+          margin-left: 20.4% !important;
+          margin-right: 20.4%;
+        }
+
+    }
+
+    /* 3. 4 Column Grid 1100px - 1679px
+    -----------------------------------------------------------------------------
+
+    Span 1:    23.5%
+    Span 2:    49.0%
+    Span 3:    74.5%
+    Span 4:    100%
+
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 1100px) and (max-width: 1679px) {
+
+        .col {
+          margin-left:2%;
+        	padding:0 1.5%;
+        }
+
+        .row .col:first-child {
+            margin-left:0;
+        }
+
+
+        .span_1 {
+            width: 23.5%;
+        }
+        .span_2, .blurb {
+            width:49.0%;
+        }
+        .span_3 {
+            width:74.5%;
+        }
+        .span_4 {
+            margin-left:0;
+            width:100%;
+        }
+
+        .offset-by-one, .blurb {
+          margin-left: 25.5% !important;
+          margin-right: 25.5%;
+        }
+
+        section {
+          padding-top: 10rem;
+          padding-bottom: 10rem;
+        }
+
+        h2 {
+            font-size: 5rem;
+        }
+
+    }
+
+    /* 4. 6 Column Grid 1680px - Infinity
+    -----------------------------------------------------------------------------
+
+    Span 1:    15.0%
+    Span 2:    32.0%
+    Span 3:    49.0%
+    Span 4:    66.0%
+    Span 5:    83.0%
+    Span 6:    100%
+
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 1680px) {
+
+        .col {
+            margin-left:2%;
+        	padding:0 1.5%;
+        }
+
+        .row .col:first-child {
+            margin-left:0;
+        }
+
+
+
+        .span_1 {
+            width:15.0%;
+        }
+        .span_2, .blurb {
+            width:32.0%;
+        }
+        .span_3 {
+            width:49.0%;
+        }
+        .span_4 {
+            width:66.0%;
+        }
+        .span_5 {
+            width:83.0%;
+        }
+        .span_6 {
+            margin-left:0;
+            width:100%;
+        }
+
+        .offset-by-two, .blurb {
+          margin-left: 34.0% !important;
+          margin-right: 34.0%;
+        }
+    }

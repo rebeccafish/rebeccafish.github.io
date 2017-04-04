@@ -1,12 +1,29 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   background-color: #F1ECEC;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 10px;
 }
 
 header {
 
 }
 
+
 h2 {
-  font-family: "nimbus-sans",sans-serif;
+  font-weight: 600;
+  font-size: 5rem;
+  color: #0009FF;
+  font-family: -apple-system, BlinkMacSystemFont, helvetica, 'Roboto', sans-serif;
+}
+
+p {
+  font-weight: 300;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
 }
