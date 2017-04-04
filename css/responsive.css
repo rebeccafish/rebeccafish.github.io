@@ -35,6 +35,10 @@
             width:100%;
         }
 
+        header {
+          margin-bottom: 1rem;
+        }
+
         section {
         }
 
@@ -94,6 +98,14 @@
           margin-right: 20.4%;
         }
 
+        section {
+          padding-top: 6.4rem;
+          padding-bottom: 10rem;
+        }
+
+        h2 {
+        }
+
     }
 
     /* 3. 4 Column Grid 1100px - 1679px
@@ -138,12 +150,11 @@
         }
 
         section {
-          padding-top: 10rem;
+          padding-top: 6.4rem;
           padding-bottom: 10rem;
         }
 
         h2 {
-            font-size: 5rem;
         }
 
     }
@@ -197,4 +208,14 @@
           margin-left: 34.0% !important;
           margin-right: 34.0%;
         }
+
+        section {
+          padding-top: 6.4rem;
+          padding-bottom: 10rem;
+        }
+
+        h2 {
+
+        }
+
     }
